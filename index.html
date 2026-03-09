@@ -278,16 +278,49 @@
         }
 
         // เพิ่ม marker
-        var marker_a = L.marker([15.00000, 100.000000], {
-            icon: createMarker("red")
+        var marker_a = L.marker([13.7386, 100.5321], {
+            icon: createMarker("#D9577D")
+        }).addTo(map);
+        var marker_b = L.marker([18.6789, 98.7739], {
+            icon: createMarker("#9E76B4")
+        }).addTo(map);
+        var marker_c = L.marker([16.4744, 102.8220], {
+            icon: createMarker("#A73B24")
+        }).addTo(map);
+        var marker_d = L.marker([7.0069, 100.5007], {
+            icon: createMarker("#000080")
+        }).addTo(map);
+        var marker_e = L.marker([14.8818, 102.0207], {
+            icon: createMarker("#F26522")
         }).addTo(map);
 
         // popup
         marker_a.bindPopup(
-            "<b>ชื่อสถานที่:</b> จุดตัวอย่าง<br>" +
-            "<b>รายละเอียด:</b> พิกัด 15,100" +
-            "<img src='https://img.freepik.com/free-photo/portrait-beautiful-purebred-pussycat-with-shorthair-orange-collar-neck-sitting-floor-reacting-camera-flash-scared-looking-light-indoor_8353-12551.jpg?semt=ais_rp_50_assets&w=740&q=80' width='100' style='display:block;margin-top:10px;'/>"
+            "<b>ชื่อสถานที่:</b> จุฬาลงกรณ์มหาวิทยาลัย<br>" +
+            "<b>รายละเอียด:</b> พิกัด 13.7386, 100.5321" +
+            "<img src='https://www.chula.ac.th/wp-content/uploads/2018/03/faculty-hero-1440x900.jpg' style='display:block;margin-top:10px; width: 100%;'/>"
         );
+        marker_b.bindPopup(
+            "<b>ชื่อสถานที่:</b> มหาวิทยาลัยเชียงใหม่<br>" +
+            "<b>รายละเอียด:</b> พิกัด 18.6789, 98.7739" +
+            "<img src='https://www.matichon.co.th/weekly/wp-content/uploads/2020/05/%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%882.jpg' style='display:block;margin-top:10px; width: 100%;'/>"
+        );
+        marker_c.bindPopup(
+            "<b>ชื่อสถานที่:</b> มหาวิทยาลัยขอนแก่น<br>" +
+            "<b>รายละเอียด:</b> พิกัด 16.4744, 102.8220" +
+            "<img src='https://us-fbcloud.net/picpost/data/223/223357-qgfeym-3.n.jpg' style='display:block;margin-top:10px; width: 100%;'/>"
+        );
+        marker_d.bindPopup(
+            "<b>ชื่อสถานที่:</b> มหาวิทยาลัยสงขลานครินทร์<br>" +
+            "<b>รายละเอียด:</b> พิกัด 7.0069, 100.5007" +
+            "<img src='https://www.psu.ac.th/img/introduce/fac/su.jpg' style='display:block;margin-top:10px; width: 100%;'/>"
+        );
+        marker_e.bindPopup(
+            "<b>ชื่อสถานที่:</b> มหาวิทยาลัยเทคโนโลยีสุรนารี<br>" +
+            "<b>รายละเอียด:</b> พิกัด 14.8818, 102.0207" +
+            "<img src='https://www.khaosod.co.th/wpapp/uploads/2020/07/8421-3.jpg' style='display:block;margin-top:10px; width: 100%;'/>"
+        );
+       
 
     </script>
 </body>
